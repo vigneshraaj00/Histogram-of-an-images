@@ -26,13 +26,33 @@ The Histogram of gray scale image and color image is shown.
 
 ## Program:
 ```python
-# Developed By: 
-# Register Number: 
+# Developed By: vignesh raaj S
+# Register Number: 212223230239
+import cv2
+import numpy as np
+import matplotlib.pyplot as plt
 
+gray_image = cv2.imread('EX03.png', cv2.IMREAD_GRAYSCALE)
 
+plt.title("Grayscale Image")
+plt.imshow(gray_image, cmap='gray')
+plt.axis('off')
 
+plt.title("Histogram of Grayscale Image")
+plt.hist(gray_image.ravel(), bins=256, color='black', alpha=0.6)
+plt.xlim(0, 255)
+plt.tight_layout()
+plt.show()
 
+equalized_gray_image = cv2.equalizeHist(gray_image)
 
+plt.title("Histogram of Equalized Grayscale Image")
+plt.hist(equalized_gray_image.ravel(), bins=256, color='black', alpha=0.6)
+plt.xlim(0, 255)
+
+plt.title("Enhanced Grayscale Image")
+plt.imshow(equalized_gray_image, cmap='gray')
+plt.axis('off')
 
 ```
 ## Output:
