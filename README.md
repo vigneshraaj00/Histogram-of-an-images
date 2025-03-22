@@ -57,13 +57,26 @@ plt.axis('off')
 ```
 ## Output:
 ### Input Grayscale Image and Color Image
+![Screenshot 2025-03-22 153643](https://github.com/user-attachments/assets/5938202a-87fd-4ffd-9a33-5e63b1dfb492)
+![Screenshot 2025-03-22 153724](https://github.com/user-attachments/assets/b23655cc-118b-4f71-93c5-276f0c1b5851)
+
+
+
 
 
 ### Histogram of Grayscale Image and any channel of Color Image
+![Screenshot 2025-03-22 153802](https://github.com/user-attachments/assets/f5015ac1-8e6d-4ba0-a45b-67dbbab56de8)
+![Screenshot 2025-03-22 153839](https://github.com/user-attachments/assets/5d44d4f5-226b-4e88-bcca-aef015e35090)
+
+
 
 
 
 ### Histogram Equalization of Grayscale Image.
+![Screenshot 2025-03-22 153944](https://github.com/user-attachments/assets/39430edb-6b44-444c-b7f0-78227b31d557)
+![Screenshot 2025-03-22 154025](https://github.com/user-attachments/assets/d513a700-425a-413f-9590-94b7b6e8dc06)
+
+
 
 
 
